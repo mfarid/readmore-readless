@@ -8,7 +8,7 @@
         "showmore",
         "showless"
     ],
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": {
         "name": "Mohd Farid",
         "url": "https://github.com/mfarid"
@@ -23,13 +23,13 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/mfarid/readmore-readless/blob/0.1.1/MIT-LICENSE.txt"
+            "url": "https://github.com/mfarid/readmore-readless/blob/master/MIT_LICENSE.txt"
         }
     ],
     "bugs": "https://github.com/mfarid/readmore-readless/issues",
-    "homepage": "https://github.com/mfarid/readmore-readless/tree/0.1.1",
-    "docs": "https://github.com/mfarid/readmore-readless/tree/0.1.1#readme",
-    "download": "https://github.com/mfarid/readmore-readless/archive/0.1.1.zip",
+    "homepage": "https://github.com/mfarid/readmore-readless",
+    "docs": "https://github.com/mfarid/readmore-readless#readme",
+    "download": "https://github.com/mfarid/readmore-readless/archive/0.1.2.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
