@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo - jQuery Read more - Read less : Mohd Farid</title>
+</head>
+
+<style type="text/css">
+
+    .button  {
+        color: #ffffff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        text-decoration: none;
+        background-color: #49afcd;
+        *background-color: #2f96b4;
+        background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+        background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+        background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+        background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+        background-repeat: repeat-x;
+    }
+
+</style>
+
+<body>
+
+<strong>Example 1 : Default behaviour: 2 items in summary</strong>
+<div id="readMoreReadLess1">
+    <ul class="item">
+        <li>Item 1</li>
+        <li class="details">Details of Item 1</li>
+    </ul>
+
+    <ul class="item">
+        <li>Item 2</li>
+        <li class="details">Details of Item 2</li>
+    </ul>
+
+    <ul class="item">
+        <li>Item 3</li>
+        <li class="details">Details of Item 3</li>
+    </ul>
+
+</div>
+
+  <br/>
+
+<strong>Example 2 : Show only one item in summary.</strong>
+<div id="readMoreReadLess2">
+    <ul class="item">
+        <li>Item 1</li>
+        <li class="details">Details of Item 1</li>
+    </ul>
+
+    <ul class="item">
+        <li>Item 2</li>
+        <li class="details">Details of Item 2</li>
+    </ul>
+
+    <ul class="item">
+        <li>Item 3</li>
+        <li class="details">Details of Item 3</li>
+    </ul>
+
+</div>
+
+<br/>
+
+<strong>Example 3 : With custom text and styling of links</strong>
+<div id="readMoreReadLess3">
+    <ul class="item">
+        <li>Item 1</li>
+        <li class="details">Details of Item 1</li>
+    </ul>
+
+    <ul class="item">
+        <li>Item 2</li>
+        <li class="details">Details of Item 2</li>
+    </ul>
+
+    <ul class="item">
+        <li>Item 3</li>
+        <li class="details">Details of Item 3</li>
+    </ul>
+</div>
+
+<!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG
+     That way the browser will have loaded the images
+     and will know the width of the images. No need to
+     specify the width in the CSS or inline. -->
+
+<!-- jQuery library - Please load it from Google API's -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+
+<script src="js/jquery.readmore-readless.js" type="text/javascript"></script>
+
+<!-- Plugin initialization -->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        // // Initialize the plugin with no custom options
+        $("#readMoreReadLess1").readMoreReadLess();
+
+        // Use the plugin with items in summary set to 1
+        $("#readMoreReadLess2").readMoreReadLess({
+            itemInSummary: 1
+        });
+
+        // Use the plugin with custome text for Read more and Read less.
+        //Added custom class to Read More and Read less links
+        $("#readMoreReadLess3").readMoreReadLess({
+            readMoreText: 'Show more items ...',
+            readLessText: 'Show fewer items ...',
+            readMoreClass:'button',
+            readLessClass:'button'
+        });
+    });
+</script>
+
+</body>
+</html>
