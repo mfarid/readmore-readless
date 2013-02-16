@@ -4,7 +4,7 @@ readmore-readless
 A jquery plugin for Read more and Read less functionality
 
 
-We can achieve the Read more and Read less functionality by simple code::
+We can achieve the Read more and Read less functionality by simple code.
 
           ### Initialize the plugin with no custom options
           $("#readMoreReadLess1").readMoreReadLess();

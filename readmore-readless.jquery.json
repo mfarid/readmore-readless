@@ -1,0 +1,36 @@
+{
+    "name": "readmore-readless",
+    "title": "jQuery Read more - Read bless",
+    "description": "A jQuery plugin for Read more and Read less functionality.",
+    "keywords": [
+        "readmore",
+        "readless",
+        "showmore",
+        "showless"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Mohd Farid",
+        "url": "https://github.com/mfarid"
+    },
+    "maintainers": [
+        {
+            "name": "Mohd Farid",
+            "email": "farid.iflex+readmore@gmail.com",
+            "url": "https://github.com/mfarid"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/mfarid/readmore-readless/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/mfarid/readmore-readless/issues",
+    "homepage": "https://github.com/mfarid/readmore-readless",
+    "docs": "https://github.com/mfarid/readmore-readless",
+    "download": "https://github.com/mfarid/readmore-readless/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
