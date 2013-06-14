@@ -48,3 +48,36 @@ $("#readMoreReadLess").readMoreReadLess({
         readLessClass:'button'
 });
 ```
+```options``` is an optional javascript object with parameters explained below.
+
+Options
+-------
+
+- **itemClass**
+A class name which is present on each item.
+*default: 'item'*
+
+- **itemInSummary**
+The number of items that should appear in the summary view.
+*default: 2*
+
+- **readMoreClass**
+A class name which would be applied to Read More link.
+*default: 'read-more'*
+
+- **readLessClass**
+A class name which would be applied to Read less link.
+*default: 'read-less'*
+
+- **readMoreText**
+The text for the link representing "Read more"
+*default: 'Read more >> '*
+
+- **readLessText**
+The text for the link representing "Read less"
+*default: 'Read less << '*
+
+- - -
+
+This software is made available under the open source MIT License. &copy; 2013 
+            

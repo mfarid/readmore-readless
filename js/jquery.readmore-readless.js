@@ -35,8 +35,8 @@
                     expandable.find('.'+config.itemClass).slice(config.itemInSummary).hide();
                     expandable.append("<span class='rmrl-read-more'> <a href='#' class='"+config.readMoreClass+"'>"+config.readMoreText+"</a> </span>");
                     expandable.append("<span class='rmrl-read-less'> <a href='#' class='"+config.readLessClass+"'>"+config.readLessText+"</a> </span>");
-                    expandable.find('.rmrl-read-more').live('click', obj.showDetails);
-                    expandable.find('.rmrl-read-less').live('click', obj.hideDetails).hide();
+                    expandable.find('.rmrl-read-more').on('click', obj.showDetails);
+                    expandable.find('.rmrl-read-less').on('click', obj.hideDetails).hide();
                 }
 
             });
