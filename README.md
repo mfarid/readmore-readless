@@ -79,5 +79,10 @@ The text for the link representing "Read less"
 
 - - -
 
+Thanks
+- - - -
+
+I would like to thanks Sascha Plaum for upgrading the plugin to support newer version of jquery 1.9.1
+
 This software is made available under the open source MIT License. &copy; 2013 
             
