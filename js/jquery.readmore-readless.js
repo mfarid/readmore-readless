@@ -1,4 +1,3 @@
-
 (function( $ ){
 
     var obj = {
@@ -44,7 +43,7 @@
 
         showDetails: function(e){
             e.preventDefault();
-            var expandable= $(this).parent('.rmrl-container');
+            var expandable= $(this).closest('.rmrl-container');
             var elemId =  expandable.attr('rmrl-elemid');
             var config = obj.confData[elemId];
             expandable.find('.'+config.itemClass).show();
@@ -54,7 +53,7 @@
 
         hideDetails: function(e){
             e.preventDefault();
-            var expandable= $(this).parent('.rmrl-container');
+            var expandable= $(this).closest('.rmrl-container');
             var elemId =  expandable.attr('rmrl-elemid');
             var config = obj.confData[elemId];
 //            var expandable= $(this).parent('.'+obj.data.containerClass);
